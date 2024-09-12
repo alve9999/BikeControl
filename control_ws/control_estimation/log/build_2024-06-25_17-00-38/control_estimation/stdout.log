@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target estimation[0m
+[100%] Built target estimation
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/control_estimation/estimation
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/package_run_dependencies/control_estimation
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/parent_prefix_path/control_estimation
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.sh
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.dsv
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.bash
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.sh
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.zsh
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.dsv
+-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.dsv
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/packages/control_estimation
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig.cmake
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig-version.cmake
+-- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.xml

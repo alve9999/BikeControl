@@ -1,0 +1,35 @@
+[0.005s] Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[0.019s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.086s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.089s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.105s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.106s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.109s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.157s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.158s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.303s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.446s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.496s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.496s]   By not providing "FindIpopt.cmake" in CMAKE_MODULE_PATH this project has
+[0.496s]   asked CMake to find a package configuration file provided by "Ipopt", but
+[0.496s]   CMake did not find one.
+[0.496s] 
+[0.496s]   Could not find a package configuration file provided by "Ipopt" with any of
+[0.496s]   the following names:
+[0.496s] 
+[0.496s]     IpoptConfig.cmake
+[0.496s]     ipopt-config.cmake
+[0.496s] 
+[0.496s]   Add the installation prefix of "Ipopt" to CMAKE_PREFIX_PATH or set
+[0.496s]   "Ipopt_DIR" to a directory containing one of the above files.  If "Ipopt"
+[0.496s]   provides a separate development package or SDK, be sure it has been
+[0.496s]   installed.
+[0.496s] 
+[0.496s] [0m
+[0.496s] -- Configuring incomplete, errors occurred!
+[0.496s] See also "/home/alve/control-sp/control_ws/control_estimation/build/control_estimation/CMakeFiles/CMakeOutput.log".
+[0.499s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.501s] Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20

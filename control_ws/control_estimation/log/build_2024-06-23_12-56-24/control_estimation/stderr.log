@@ -1,0 +1,7 @@
+[01m[K/home/alve/control-sp/control_ws/control_estimation/src/estimation.cpp:[m[K In constructor ‘[01m[KEstimation::Estimation()[m[K’:
+[01m[K/home/alve/control-sp/control_ws/control_estimation/src/estimation.cpp:20:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   20 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&Estimation::post_result, this));
+      |                                      [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/estimation.dir/build.make:76: CMakeFiles/estimation.dir/src/estimation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/estimation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

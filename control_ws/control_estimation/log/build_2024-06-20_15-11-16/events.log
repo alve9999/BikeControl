@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (control_estimation) JobQueued: {'identifier': 'control_estimation', 'dependencies': OrderedDict()}
+[0.000132] (control_estimation) JobStarted: {'identifier': 'control_estimation'}
+[0.004057] (control_estimation) JobProgress: {'identifier': 'control_estimation', 'progress': 'cmake'}
+[0.004172] (control_estimation) Command: {'cmd': ['/usr/bin/cmake', '/home/alve/control-sp/control_ws/control_estimation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alve/control-sp/control_ws/control_estimation/install/control_estimation'], 'cwd': '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alve'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alve'), ('OLDPWD', '/home/alve/control-sp/control_ws/control_estimation/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '85083'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alve'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alve'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/alve/.local/bin:/home/alve/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alve-XPS-15-9520:@/tmp/.ICE-unix/85058,unix/alve-XPS-15-9520:/tmp/.ICE-unix/85058'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e384c24a_7c55_44b2_9b94_0cc6de477992'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NAA4P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim/bike_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/alve/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim/bike_sim:/opt/ros/humble')]), 'shell': False}
+[0.039142] (control_estimation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.070023] (control_estimation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.074233] (control_estimation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099574] (-) TimerEvent: {}
+[0.110760] (control_estimation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.114753] (control_estimation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.114990] (control_estimation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.115158] (control_estimation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.116943] (control_estimation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.163081] (control_estimation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.167257] (control_estimation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.167334] (control_estimation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.167526] (control_estimation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.168679] (control_estimation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199749] (-) TimerEvent: {}
+[0.250841] (control_estimation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.284150] (control_estimation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.295558] (control_estimation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299920] (-) TimerEvent: {}
+[0.317479] (control_estimation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.319700] (control_estimation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.323684] (control_estimation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.330704] (control_estimation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.340529] (control_estimation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.375972] (control_estimation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.377159] (control_estimation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400104] (-) TimerEvent: {}
+[0.426063] (control_estimation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.440851] (control_estimation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.465646] (control_estimation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.470153] (control_estimation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.500303] (-) TimerEvent: {}
+[0.511609] (control_estimation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.511822] (control_estimation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.556141] (control_estimation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.556534] (control_estimation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.600466] (-) TimerEvent: {}
+[0.641079] (control_estimation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.684127] (control_estimation) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.684231] (control_estimation) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.684263] (control_estimation) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.685003] (control_estimation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.686884] (control_estimation) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.686947] (control_estimation) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.687280] (control_estimation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.687939] (control_estimation) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.693155] (control_estimation) StdoutLine: {'line': b'-- Generating done\n'}
+[0.694033] (control_estimation) StdoutLine: {'line': b'-- Build files have been written to: /home/alve/control-sp/control_ws/control_estimation/build/control_estimation\n'}
+[0.700043] (control_estimation) CommandEnded: {'returncode': 0}
+[0.700240] (control_estimation) JobProgress: {'identifier': 'control_estimation', 'progress': 'build'}
+[0.700255] (control_estimation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation', '--', '-j20', '-l20'], 'cwd': '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alve'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alve'), ('OLDPWD', '/home/alve/control-sp/control_ws/control_estimation/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '85083'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alve'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alve'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/alve/.local/bin:/home/alve/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alve-XPS-15-9520:@/tmp/.ICE-unix/85058,unix/alve-XPS-15-9520:/tmp/.ICE-unix/85058'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e384c24a_7c55_44b2_9b94_0cc6de477992'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NAA4P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim/bike_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/alve/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim/bike_sim:/opt/ros/humble')]), 'shell': False}
+[0.700523] (-) TimerEvent: {}
+[0.724964] (control_estimation) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.725101] (control_estimation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.800759] (-) TimerEvent: {}
+[0.901141] (-) TimerEvent: {}
+[1.001508] (-) TimerEvent: {}
+[1.101884] (-) TimerEvent: {}
+[1.202185] (-) TimerEvent: {}
+[1.302529] (-) TimerEvent: {}
+[1.402896] (-) TimerEvent: {}
+[1.503271] (-) TimerEvent: {}
+[1.603647] (-) TimerEvent: {}
+[1.704018] (-) TimerEvent: {}
+[1.804388] (-) TimerEvent: {}
+[1.904764] (-) TimerEvent: {}
+[2.005139] (-) TimerEvent: {}
+[2.105512] (-) TimerEvent: {}
+[2.205765] (-) TimerEvent: {}
+[2.306138] (-) TimerEvent: {}
+[2.406455] (-) TimerEvent: {}
+[2.506829] (-) TimerEvent: {}
+[2.607190] (-) TimerEvent: {}
+[2.707564] (-) TimerEvent: {}
+[2.807924] (-) TimerEvent: {}
+[2.908285] (-) TimerEvent: {}
+[3.000724] (control_estimation) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.008502] (-) TimerEvent: {}
+[3.101576] (control_estimation) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[3.108721] (-) TimerEvent: {}
+[3.209078] (-) TimerEvent: {}
+[3.309453] (-) TimerEvent: {}
+[3.409755] (-) TimerEvent: {}
+[3.510125] (-) TimerEvent: {}
+[3.610491] (-) TimerEvent: {}
+[3.710859] (-) TimerEvent: {}
+[3.811236] (-) TimerEvent: {}
+[3.911608] (-) TimerEvent: {}
+[4.011984] (-) TimerEvent: {}
+[4.112348] (-) TimerEvent: {}
+[4.212712] (-) TimerEvent: {}
+[4.313080] (-) TimerEvent: {}
+[4.413450] (-) TimerEvent: {}
+[4.513812] (-) TimerEvent: {}
+[4.614178] (-) TimerEvent: {}
+[4.714570] (-) TimerEvent: {}
+[4.814989] (-) TimerEvent: {}
+[4.864801] (control_estimation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[4.915226] (-) TimerEvent: {}
+[5.015543] (-) TimerEvent: {}
+[5.064121] (control_estimation) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.075101] (control_estimation) CommandEnded: {'returncode': 0}
+[5.094282] (control_estimation) JobProgress: {'identifier': 'control_estimation', 'progress': 'install'}
+[5.100938] (control_estimation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation'], 'cwd': '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alve'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alve'), ('OLDPWD', '/home/alve/control-sp/control_ws/control_estimation/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '85083'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alve'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alve'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/alve/.local/bin:/home/alve/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alve-XPS-15-9520:@/tmp/.ICE-unix/85058,unix/alve-XPS-15-9520:/tmp/.ICE-unix/85058'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e384c24a_7c55_44b2_9b94_0cc6de477992'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NAA4P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim/bike_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/alve/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alve/control-sp/control_ws/install_sim/bike_sim:/opt/ros/humble')]), 'shell': False}
+[5.105489] (control_estimation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.105695] (control_estimation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.106040] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/control_estimation/talker\n'}
+[5.110767] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/control_estimation/listener\n'}
+[5.115347] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/package_run_dependencies/control_estimation\n'}
+[5.115591] (-) TimerEvent: {}
+[5.119593] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/parent_prefix_path/control_estimation\n'}
+[5.123883] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.sh\n'}
+[5.127974] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.dsv\n'}
+[5.132161] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.sh\n'}
+[5.136229] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.dsv\n'}
+[5.140235] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.bash\n'}
+[5.144480] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.sh\n'}
+[5.150199] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.zsh\n'}
+[5.154895] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.dsv\n'}
+[5.159717] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.dsv\n'}
+[5.163918] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/packages/control_estimation\n'}
+[5.169040] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig.cmake\n'}
+[5.173751] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig-version.cmake\n'}
+[5.178172] (control_estimation) StdoutLine: {'line': b'-- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.xml\n'}
+[5.183739] (control_estimation) CommandEnded: {'returncode': 0}
+[5.215789] (-) TimerEvent: {}
+[5.218966] (control_estimation) JobEnded: {'identifier': 'control_estimation', 'rc': 0}
+[5.219486] (-) EventReactorShutdown: {}

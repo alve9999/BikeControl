@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target estimation[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/estimation.dir/src/estimation.cpp.o[0m
+[4.280s] [100%] [32m[1mLinking CXX executable estimation[0m
+[4.493s] [100%] Built target estimation
+[4.503s] Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[4.523s] Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --install /home/alve/control-sp/control_ws/control_estimation/build/control_estimation
+[4.527s] -- Install configuration: ""
+[4.527s] -- Execute custom install script
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/control_estimation/estimation
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/package_run_dependencies/control_estimation
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/parent_prefix_path/control_estimation
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.sh
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.dsv
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.sh
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.dsv
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.bash
+[4.527s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.sh
+[4.528s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.zsh
+[4.528s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.dsv
+[4.528s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.dsv
+[4.532s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/packages/control_estimation
+[4.532s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig.cmake
+[4.532s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig-version.cmake
+[4.532s] -- Up-to-date symlink: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.xml
+[4.533s] Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --install /home/alve/control-sp/control_ws/control_estimation/build/control_estimation

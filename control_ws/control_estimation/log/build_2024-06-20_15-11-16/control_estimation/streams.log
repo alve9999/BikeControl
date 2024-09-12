@@ -1,0 +1,73 @@
+[0.005s] Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alve/control-sp/control_ws/control_estimation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alve/control-sp/control_ws/control_estimation/install/control_estimation
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.070s] -- The CXX compiler identification is GNU 11.4.0
+[0.074s] -- Detecting C compiler ABI info
+[0.111s] -- Detecting C compiler ABI info - done
+[0.115s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.115s] -- Detecting C compile features
+[0.115s] -- Detecting C compile features - done
+[0.117s] -- Detecting CXX compiler ABI info
+[0.163s] -- Detecting CXX compiler ABI info - done
+[0.167s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.167s] -- Detecting CXX compile features
+[0.167s] -- Detecting CXX compile features - done
+[0.169s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.251s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.284s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.295s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.317s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.320s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.324s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.376s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.377s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.441s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.466s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.470s] -- Looking for pthread.h
+[0.512s] -- Looking for pthread.h - found
+[0.512s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.556s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.556s] -- Found Threads: TRUE  
+[0.641s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.684s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.684s] -- Configured cppcheck include dirs: 
+[0.684s] -- Configured cppcheck exclude dirs and/or files: 
+[0.685s] -- Added test 'lint_cmake' to check CMake code style
+[0.687s] -- Added test 'uncrustify' to check C / C++ code style
+[0.687s] -- Configured uncrustify additional arguments: 
+[0.687s] -- Added test 'xmllint' to check XML markup files
+[0.688s] -- Configuring done
+[0.693s] -- Generating done
+[0.694s] -- Build files have been written to: /home/alve/control-sp/control_ws/control_estimation/build/control_estimation
+[0.700s] Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alve/control-sp/control_ws/control_estimation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alve/control-sp/control_ws/control_estimation/install/control_estimation
+[0.700s] Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[0.725s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.725s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[3.001s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.102s] [ 75%] Built target talker
+[4.865s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.064s] [100%] Built target listener
+[5.075s] Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[5.101s] Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alve/control-sp/control_ws/control_estimation/build/control_estimation
+[5.105s] -- Install configuration: ""
+[5.106s] -- Execute custom install script
+[5.106s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/control_estimation/talker
+[5.111s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/control_estimation/listener
+[5.115s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/package_run_dependencies/control_estimation
+[5.120s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/parent_prefix_path/control_estimation
+[5.124s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.sh
+[5.128s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/ament_prefix_path.dsv
+[5.132s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.sh
+[5.136s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/environment/path.dsv
+[5.140s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.bash
+[5.144s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.sh
+[5.150s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.zsh
+[5.155s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/local_setup.dsv
+[5.160s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.dsv
+[5.164s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/ament_index/resource_index/packages/control_estimation
+[5.169s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig.cmake
+[5.174s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/cmake/control_estimationConfig-version.cmake
+[5.178s] -- Symlinking: /home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.xml
+[5.184s] Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alve/control-sp/control_ws/control_estimation/build/control_estimation

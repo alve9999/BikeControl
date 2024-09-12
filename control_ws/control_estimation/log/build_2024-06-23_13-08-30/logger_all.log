@@ -1,0 +1,104 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77a8f112a560>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77a8f1241690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77a8f1241690>>, mixin_verb=('build',))
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.149s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alve/control-sp/control_ws/control_estimation'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'control_estimation'
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/alve/control-sp/control_ws/install
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'control_estimation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'control_estimation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation', 'merge_install': False, 'path': '/home/alve/control-sp/control_ws/control_estimation', 'symlink_install': False, 'test_result_base': None}
+[0.196s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alve/control-sp/control_ws/control_estimation' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alve/control-sp/control_ws/control_estimation'
+[0.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[9.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[9.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --install /home/alve/control-sp/control_ws/control_estimation/build/control_estimation
+[9.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_estimation)
+[9.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --install /home/alve/control-sp/control_ws/control_estimation/build/control_estimation
+[9.560s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation' for CMake module files
+[9.561s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation' for CMake config files
+[9.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_estimation', 'cmake_prefix_path')
+[9.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/hook/cmake_prefix_path.ps1'
+[9.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/hook/cmake_prefix_path.dsv'
+[9.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/hook/cmake_prefix_path.sh'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/bin'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/pkgconfig/control_estimation.pc'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/python3.10/site-packages'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/bin'
+[9.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.ps1'
+[9.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.dsv'
+[9.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.sh'
+[9.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.bash'
+[9.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.zsh'
+[9.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/colcon-core/packages/control_estimation)
+[9.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_estimation)
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation' for CMake module files
+[9.597s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation' for CMake config files
+[9.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_estimation', 'cmake_prefix_path')
+[9.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/hook/cmake_prefix_path.ps1'
+[9.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/hook/cmake_prefix_path.dsv'
+[9.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/hook/cmake_prefix_path.sh'
+[9.599s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib'
+[9.599s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/bin'
+[9.599s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/pkgconfig/control_estimation.pc'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/lib/python3.10/site-packages'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/bin'
+[9.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.ps1'
+[9.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.dsv'
+[9.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.sh'
+[9.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.bash'
+[9.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/control_estimation/package.zsh'
+[9.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alve/control-sp/control_ws/control_estimation/install/control_estimation/share/colcon-core/packages/control_estimation)
+[9.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.604s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.604s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.604s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.610s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.610s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.610s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.626s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alve/control-sp/control_ws/control_estimation/install/local_setup.ps1'
+[9.629s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alve/control-sp/control_ws/control_estimation/install/_local_setup_util_ps1.py'
+[9.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alve/control-sp/control_ws/control_estimation/install/setup.ps1'
+[9.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alve/control-sp/control_ws/control_estimation/install/local_setup.sh'
+[9.631s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alve/control-sp/control_ws/control_estimation/install/_local_setup_util_sh.py'
+[9.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alve/control-sp/control_ws/control_estimation/install/setup.sh'
+[9.633s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alve/control-sp/control_ws/control_estimation/install/local_setup.bash'
+[9.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alve/control-sp/control_ws/control_estimation/install/setup.bash'
+[9.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alve/control-sp/control_ws/control_estimation/install/local_setup.zsh'
+[9.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alve/control-sp/control_ws/control_estimation/install/setup.zsh'

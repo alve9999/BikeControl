@@ -1,0 +1,11 @@
+[0.007s] Invoking command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target estimation[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/estimation.dir/src/estimation.cpp.o[0m
+[1.914s] [01m[K/home/alve/control-sp/control_ws/control_estimation/src/estimation.cpp:[m[K In constructor ‘[01m[KEstimation::Estimation()[m[K’:
+[1.914s] [01m[K/home/alve/control-sp/control_ws/control_estimation/src/estimation.cpp:20:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.914s]    20 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&Estimation::post_result, this));
+[1.914s]       |                                      [01;31m[K^~~~~[m[K
+[4.998s] gmake[2]: *** [CMakeFiles/estimation.dir/build.make:76: CMakeFiles/estimation.dir/src/estimation.cpp.o] Error 1
+[4.998s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/estimation.dir/all] Error 2
+[4.998s] gmake: *** [Makefile:146: all] Error 2
+[5.001s] Invoked command in '/home/alve/control-sp/control_ws/control_estimation/build/control_estimation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alve/control-sp/control_ws/install/mapper:/opt/ros/humble /usr/bin/cmake --build /home/alve/control-sp/control_ws/control_estimation/build/control_estimation -- -j20 -l20
